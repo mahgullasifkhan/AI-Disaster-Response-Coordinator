@@ -38,6 +38,7 @@ The project was developed and tested using Google Colab.
 5. The notebook processes the uploaded text, image and audio inputs through the multimodal pipeline.
 6. Run the Gradio interface section to launch the interactive prototype.
 7. The Gradio interface can then be used to provide multimodal incident inputs and generate an incident assessment.
+ > **Important:** The required sample image and audio files must be uploaded to the Google Colab session before running the cells that reference them. The necessary files are provided in the `sample_data` folder. Running those cells without the required files will result in file-not-found errors.
 
 ## Sample Data
 
